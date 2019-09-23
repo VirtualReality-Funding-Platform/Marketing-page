@@ -1,0 +1,27 @@
+nav{
+    .flex(column, space-between, center, nowrap);
+    .navHeader{
+        border-bottom: 1px @terminalGreen solid;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+    a{
+        font-family: 'Press Start 2P', cursive;
+        font-size: 2rem;
+        text-decoration: none;
+        color: @terminalGreen;
+        border-bottom: 1px @terminalGreen solid;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .buttons{
+        .flex(row, space-around, center, nowrap);
+        width: 100%;
+        padding: 20px 0px;
+        button{
+            .btn(@btn-bg, @btn-font);
+        }
+           }
+}
