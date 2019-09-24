@@ -177,7 +177,7 @@ nav {
   align-items: center;
   flex-wrap: nowrap;
 }
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   nav {
     display: flex;
     flex-direction: row;
@@ -186,23 +186,23 @@ nav {
     flex-wrap: wrap;
   }
 }
-.navHeader {
+nav .navHeader {
   border-bottom: 1px #82E61E solid;
   width: 100%;
   text-align: center;
   padding: 20px 0px;
 }
-@media (min-width: 500px) {
-  .navHeader {
+@media (min-width: 501px) {
+  nav .navHeader {
     width: 20%;
     border-bottom: none;
   }
-  .navHeader h1 {
+  nav .navHeader h1 {
     font-size: 2rem;
     padding: 5px;
   }
 }
-.links {
+nav .links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -210,8 +210,8 @@ nav {
   flex-wrap: nowrap;
   width: 100%;
 }
-@media (min-width: 500px) {
-  .links {
+@media (min-width: 501px) {
+  nav .links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -220,7 +220,7 @@ nav {
     width: 20%;
   }
 }
-.links a {
+nav .links a {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
   text-decoration: none;
@@ -230,40 +230,44 @@ nav {
   text-align: center;
   padding: 20px 0px;
 }
-@media (min-width: 500px) {
-  .links a {
-    font-size: 1rem;
+@media (min-width: 501px) {
+  nav .links a {
+    font-size: 2rem;
     border-bottom: none;
     width: 10%;
   }
 }
-.buttons {
+nav .buttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
-  padding: 20px 0px;
+  padding: 20px 20px;
 }
-.buttons button {
+@media (min-width: 501px) {
+  nav .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 20%;
+    border-bottom: none;
+    margin-right: 30px;
+  }
+}
+nav .buttons button {
   background-color: #82E61E;
   color: #000000;
-  width: 75%;
   border-radius: 10px;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   padding: 1rem 2rem;
   padding: 10px 0;
-}
-@media (min-width: 500px) {
-  .buttons {
-    width: 20%;
-    border-bottom: none;
-  }
-  .buttons button {
-    margin: 0 10px;
-  }
+  width: 50%;
+  margin: 10px 10px;
 }
 .middle {
   display: flex;
@@ -272,7 +276,7 @@ nav {
   align-items: center;
   flex-wrap: nowrap;
 }
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .middle {
     display: flex;
     flex-direction: row;
@@ -285,12 +289,12 @@ nav {
   text-align: center;
   padding: 20px;
 }
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .middle div {
     width: 40%;
   }
 }
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .middle div p {
     font-size: 5rem;
   }
@@ -305,7 +309,7 @@ nav {
 .middle div h2 {
   text-align: center;
 }
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .middle div h2 {
     font-size: 7rem;
   }
@@ -317,7 +321,7 @@ nav {
   align-items: center;
   flex-wrap: nowrap;
 }
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .appLogos {
     width: 25%;
     align-items: center;
