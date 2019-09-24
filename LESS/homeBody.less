@@ -1,7 +1,19 @@
 .middle{
     .flex(column, center, center, nowrap);
+    @media @desktop{
+        .flex(row, center, center, wrap);
+    }
   div{
-     
+     @media @desktop{
+         width: 40%;
+         
+     }
+        p{
+             @media @desktop{
+                 font-size: 5rem;
+             }
+         }
+    
     text-align: center;
     padding: 20px;
 
@@ -15,19 +27,28 @@
     }
     h2{
         text-align: center;
+        @media @desktop{
+            font-size: 7rem;
+        }
+
     }
   }
 
 }
 
  .appLogos{
-    .flex(row, space-around, center, nowrap);
+    .flex(row, space-around, center, nowrap); 
+     @media @desktop{
+               width: 25%;
+               align-items: center;
+           }
     div{
         width: 33%;
-        margin: 20px;
+        margin: 20px;  
+       
         img{
             width: 100%;
-           
+        
         }
         
     }

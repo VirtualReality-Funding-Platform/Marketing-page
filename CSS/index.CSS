@@ -167,7 +167,6 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
@@ -195,11 +194,12 @@ nav {
 }
 @media (min-width: 500px) {
   .navHeader {
-    width: 30%;
+    width: 20%;
     border-bottom: none;
   }
   .navHeader h1 {
     font-size: 2rem;
+    padding: 5px;
   }
 }
 .links {
@@ -272,9 +272,28 @@ nav {
   align-items: center;
   flex-wrap: nowrap;
 }
+@media (min-width: 500px) {
+  .middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
 .middle div {
   text-align: center;
   padding: 20px;
+}
+@media (min-width: 500px) {
+  .middle div {
+    width: 40%;
+  }
+}
+@media (min-width: 500px) {
+  .middle div p {
+    font-size: 5rem;
+  }
 }
 .middle div img {
   width: 75%;
@@ -286,12 +305,23 @@ nav {
 .middle div h2 {
   text-align: center;
 }
+@media (min-width: 500px) {
+  .middle div h2 {
+    font-size: 7rem;
+  }
+}
 .appLogos {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: nowrap;
+}
+@media (min-width: 500px) {
+  .appLogos {
+    width: 25%;
+    align-items: center;
+  }
 }
 .appLogos div {
   width: 33%;
