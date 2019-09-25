@@ -170,6 +170,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.aContainer {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
 nav {
   display: flex;
   flex-direction: column;
@@ -333,4 +338,24 @@ nav .buttons button {
 }
 .appLogos div img {
   width: 100%;
+}
+.aHead {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.aboutTop {
+  border-bottom: #82E61E 1px solid;
+  margin-bottom: 20px;
+}
+.aboutMiddle {
+  text-align: center;
+}
+.aboutMiddle div {
+  margin: 20px 0px;
+}
+.aboutMiddle div img {
+  width: 25%;
+}
+.aboutMiddle div h3 {
+  font-size: 2rem;
 }
