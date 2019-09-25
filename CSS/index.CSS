@@ -348,6 +348,7 @@ nav .buttons button {
 .aboutTop {
   border-bottom: #82E61E 1px solid;
   margin-bottom: 20px;
+  margin: 0 20px;
 }
 .aboutMiddle {
   text-align: center;
