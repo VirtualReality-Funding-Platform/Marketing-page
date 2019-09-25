@@ -1,0 +1,77 @@
+nav{
+    .flex(column, space-between, center, nowrap);
+    @media @desktop{
+           .flex(row, space-between, center, wrap);
+         
+          }   
+    
+
+    .navHeader{
+        border-bottom: 1px @terminalGreen solid;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+    @media @desktop{
+            width: 30%;
+            
+            border-bottom: none;
+            h1{
+                font-size: 2rem;
+                padding: 5px;
+            }
+        }
+
+    }
+
+
+  .links{
+        .flex(column, space-between, center, nowrap);
+        width: 100%;
+        @media @desktop{
+            .flex(row, space-between, center, wrap);
+            width: 30%;
+            text-align: center;
+        }
+
+        a{
+            font-family: 'Press Start 2P', cursive;
+            font-size: 2rem;
+            text-decoration: none;
+            color: @terminalGreen;
+            border-bottom: 1px @terminalGreen solid;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0px;
+            @media @desktop{
+            font-size: 2rem;
+                border-bottom: none;
+                width: 28%;
+                margin: 0 10px;
+               
+            }
+        }
+    } 
+    .buttons{
+        .flex(column, space-around, center, nowrap);
+        width: 100%;
+        padding: 20px 20px;
+       
+
+          @media @desktop{
+                .flex(row, space-around, center, nowrap);
+                width: 30%;
+                border-bottom: none;
+                margin-right: 30px;
+            }
+
+            button{
+                .btn(@btn-bg, @btn-font);
+                padding: 10px 0;
+                width: 50%;
+                margin: 10px 10px;
+            }
+        }
+    }
+         
+
+
