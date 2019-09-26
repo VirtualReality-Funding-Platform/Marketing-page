@@ -1,11 +1,13 @@
 # Marketing-page
 
-[ ] HTML
-[ ] Nav
-[ ] Sign-in Button
-[ ] Sign-up Button
-[ ] Discription of app
-[ ] IMGs
-[ ] styling
+[x] HTML
+[x] Nav
+[x] Sign-in Button
+[x] Sign-up Button
+[x] Discription of app
+[x] IMGs
+[x] styling
 **** Stretch ****
-[ ] About page 
+[x] About page 
+
+https://nostalgic-sinoussi-ec1542.netlify.com
