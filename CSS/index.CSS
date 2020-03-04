@@ -290,6 +290,8 @@ nav .buttons button {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
   }
 }
 .middle div {
@@ -303,7 +305,7 @@ nav .buttons button {
 }
 @media (min-width: 501px) {
   .middle div p {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 .middle div img {
@@ -318,7 +320,7 @@ nav .buttons button {
 }
 @media (min-width: 501px) {
   .middle div h2 {
-    font-size: 7rem;
+    font-size: 3rem;
   }
 }
 .appLogos {
